@@ -1,0 +1,43 @@
+title: Local Mail Documentation
+email: rajen.trivedi@example.com
+description: >-
+  Local Mail is a Laravel package that provides a local email testing solution for development environments.
+baseurl: "/local-mail" # the subpath of your site, e.g. /blog
+url: "https://rajen-trivedi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: rajentrivedi
+github_username: rajen-trivedi
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Custom variables
+github:
+  is_project_page: true
+  repository_url: https://github.com/rajen-trivedi/local-mail
+  owner:
+    name: Rajen Trivedi
+    url: https://github.com/rajen-trivedi
+    avatar: https://avatars.githubusercontent.com/u/12345678?v=4
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

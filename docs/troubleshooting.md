@@ -288,6 +288,6 @@ When seeking help with issues:
 
 ## Next Steps
 
-- Learn about [advanced usage patterns](/docs/advanced/)
-- Explore [contributing to the package](/docs/contributing/)
-- Review the [FAQ section](/docs/faq/)
+- Learn about [advanced usage patterns](../advanced/)
+- Explore [contributing to the package](../contributing/)
+- Review the [FAQ section](../faq/)

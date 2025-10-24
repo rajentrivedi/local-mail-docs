@@ -10,6 +10,7 @@ _site/
 .env.local
 .env.*.local
 
+
 # IDE files
 .vscode/
 .idea/

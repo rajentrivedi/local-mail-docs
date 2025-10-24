@@ -243,6 +243,6 @@ $emails = EmailMessage::orderBy('created_at', 'desc')->paginate(50);
 
 ## Next Steps
 
-- Review [security best practices](/docs/security/)
-- Explore [troubleshooting tips](/docs/troubleshooting/)
-- Learn about [advanced usage patterns](/docs/advanced/)
+- Review [security best practices](../security/)
+- Explore [troubleshooting tips](../troubleshooting/)
+- Learn about [advanced usage patterns](../advanced/)

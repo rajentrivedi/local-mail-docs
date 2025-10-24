@@ -132,6 +132,6 @@ The email will be captured and stored in your database instead of being sent. Yo
 
 ## Next Steps
 
-- Learn how to [use the web interface](/docs/usage/)
-- Explore [advanced configuration options](/docs/configuration/)
-- Understand [cleanup and maintenance](/docs/maintenance/)
+- Learn how to [use the web interface](../usage/)
+- Explore [advanced configuration options](../configuration/)
+- Understand [cleanup and maintenance](../maintenance/)

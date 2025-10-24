@@ -28,7 +28,7 @@
     <main id="content" class="main-content" role="main">
       <nav aria-label="Breadcrumb" class="breadcrumb">
         <ol>
-          <li><a href="{{ site.baseurl }}/">Home</a></li>
+          <li><a href="{{ '/' | relative_url }}">Home</a></li>
           {% if page.title %}
             <li class="current">{{ page.title }}</li>
           {% endif %}
@@ -39,14 +39,14 @@
         <aside class="sidebar">
           <h3>Documentation</h3>
           <ul>
-            <li><a href="{% link docs/getting-started.md %}" {% if page.url contains '/docs/getting-started/' %}class="active"{% endif %}>Getting Started</a></li>
-            <li><a href="{% link docs/usage.md %}" {% if page.url contains '/docs/usage/' %}class="active"{% endif %}>Usage Guide</a></li>
-            <li><a href="{% link docs/configuration.md %}" {% if page.url contains '/docs/configuration/' %}class="active"{% endif %}>Configuration</a></li>
-            <li><a href="{% link docs/commands.md %}" {% if page.url contains '/docs/commands/' %}class="active"{% endif %}>Commands</a></li>
-            <li><a href="{% link docs/maintenance.md %}" {% if page.url contains '/docs/maintenance/' %}class="active"{% endif %}>Maintenance</a></li>
-            <li><a href="{% link docs/security.md %}" {% if page.url contains '/docs/security/' %}class="active"{% endif %}>Security</a></li>
-            <li><a href="{% link docs/troubleshooting.md %}" {% if page.url contains '/docs/troubleshooting/' %}class="active"{% endif %}>Troubleshooting</a></li>
-            <li><a href="{% link docs/faq.md %}" {% if page.url contains '/docs/faq/' %}class="active"{% endif %}>FAQ</a></li>
+            <li><a href="{{ '/docs/getting-started/' | relative_url }}" {% if page.url contains '/docs/getting-started/' %}class="active"{% endif %}>Getting Started</a></li>
+            <li><a href="{{ '/docs/usage/' | relative_url }}" {% if page.url contains '/docs/usage/' %}class="active"{% endif %}>Usage Guide</a></li>
+            <li><a href="{{ '/docs/configuration/' | relative_url }}" {% if page.url contains '/docs/configuration/' %}class="active"{% endif %}>Configuration</a></li>
+            <li><a href="{{ '/docs/commands/' | relative_url }}" {% if page.url contains '/docs/commands/' %}class="active"{% endif %}>Commands</a></li>
+            <li><a href="{{ '/docs/maintenance/' | relative_url }}" {% if page.url contains '/docs/maintenance/' %}class="active"{% endif %}>Maintenance</a></li>
+            <li><a href="{{ '/docs/security/' | relative_url }}" {% if page.url contains '/docs/security/' %}class="active"{% endif %}>Security</a></li>
+            <li><a href="{{ '/docs/troubleshooting/' | relative_url }}" {% if page.url contains '/docs/troubleshooting/' %}class="active"{% endif %}>Troubleshooting</a></li>
+            <li><a href="{{ '/docs/faq/' | relative_url }}" {% if page.url contains '/docs/faq/' %}class="active"{% endif %}>FAQ</a></li>
           </ul>
         </aside>
 

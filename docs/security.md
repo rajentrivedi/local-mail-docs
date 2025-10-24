@@ -369,6 +369,6 @@ Route::middleware(config('local-mail.route_middlewares', ['web']))
 
 ## Next Steps
 
-- Review [troubleshooting tips](/docs/troubleshooting/)
-- Explore [advanced usage patterns](/docs/advanced/)
-- Learn about [contributing to the package](/docs/contributing/)
+- Review [troubleshooting tips](../troubleshooting/)
+- Explore [advanced usage patterns](../advanced/)
+- Learn about [contributing to the package](../contributing/)

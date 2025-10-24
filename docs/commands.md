@@ -187,6 +187,6 @@ If cleanup fails:
 
 ## Next Steps
 
-- Learn about [security considerations](/docs/security/)
-- Explore [troubleshooting tips](/docs/troubleshooting/)
-- Understand [advanced usage patterns](/docs/advanced/)
+- Learn about [security considerations](../security/)
+- Explore [troubleshooting tips](../troubleshooting/)
+- Understand [advanced usage patterns](../advanced/)

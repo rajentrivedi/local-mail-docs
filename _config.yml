@@ -2,7 +2,7 @@ title: Local Mail Documentation
 email: rajen.trivedi@example.com
 description: >-
   Local Mail is a Laravel package that provides a local email testing solution for development environments.
-baseurl: "/local-mail" # the subpath of your site, e.g. /blog
+baseurl: "/local-mail-docs" # the subpath of your site, e.g. /blog
 url: "https://rajentrivedi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rajentrivedi
 github_username: rajentrivedi

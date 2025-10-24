@@ -173,6 +173,6 @@ Schema::table(config('local-mail.table_name', 'email_messages'), function (Bluep
 
 ## Next Steps
 
-- Learn about [cleanup and maintenance](/docs/maintenance/)
-- Explore [command-line tools](/docs/commands/)
-- Understand [security best practices](/docs/security/)
+- Learn about [cleanup and maintenance](../maintenance/)
+- Explore [command-line tools](../commands/)
+- Understand [security best practices](../security/)

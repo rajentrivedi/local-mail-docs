@@ -178,6 +178,6 @@ If attachments aren't being saved:
 
 ## Next Steps
 
-- Learn about [configuration options](/docs/configuration/)
-- Understand [cleanup and maintenance](/docs/maintenance/)
-- Explore [command-line tools](/docs/commands/)
+- Learn about [configuration options](../configuration/)
+- Understand [cleanup and maintenance](../maintenance/)
+- Explore [command-line tools](../commands/)

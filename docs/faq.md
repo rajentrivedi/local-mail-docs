@@ -193,6 +193,6 @@ public function testEmailIsSent()
 
 ## Next Steps
 
-- Review [all documentation](/)
-- Try the [getting started guide](/docs/getting-started/)
-- Explore [advanced usage](/docs/advanced/)
+- Review [all documentation](../)
+- Try the [getting started guide](../getting-started/)
+- Explore [advanced usage](../advanced/)

@@ -13,11 +13,11 @@ nav_order: 1
 
 <div class="features-grid">
   <div class="feature-card">
-    <h3><a href="{% link docs/getting-started.md %}">Getting Started</a></h3>
+    <h3><a href="{{ '/docs/getting-started/' | relative_url }}">Getting Started</a></h3>
     <p>Install and configure the Local Mail package in your Laravel application.</p>
   </div>
   <div class="feature-card">
-    <h3><a href="{% link docs/usage.md %}">Usage Guide</a></h3>
+    <h3><a href="{{ '/docs/usage/' | relative_url }}">Usage Guide</a></h3>
     <p>Learn how to use the package and view captured emails.</p>
   </div>
 </div>

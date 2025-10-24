@@ -279,6 +279,6 @@ Ensure proper access controls:
 
 ## Next Steps
 
-- Learn about [security best practices](/docs/security/)
-- Explore [troubleshooting tips](/docs/troubleshooting/)
-- Understand [advanced usage patterns](/docs/advanced/)
+- Learn about [security best practices](../security/)
+- Explore [troubleshooting tips](../troubleshooting/)
+- Understand [advanced usage patterns](../advanced/)

@@ -6,22 +6,19 @@ nav_order: 1
 
 # Local Mail - Laravel Email Testing Package
 
-<div class="fs-6 mt-2">
+<div class="text-large margin-top-2">
   <p>Local Mail is a Laravel package that provides a local email testing solution for development environments.</p>
  <p>Instead of sending emails to actual recipients, this package captures all outgoing emails and stores them in your local database, allowing you to inspect, debug, and test email functionality without affecting real users.</p>
 </div>
 
-<div class="d-flex flex-wrap gutter flex-justify-center mb-5">
-  <div class="col-12 col-md-6 mb-4 mb-md-0">
-    <div class="Box p-4 h-100">
-      <h3 class="mb-2"><a href="{{ site.baseurl }}{% link docs/getting-started.md %}">Getting Started</a></h3>
-      <p>Install and configure the Local Mail package in your Laravel application.</p>
-    </div>
-  <div class="col-12 col-md-6">
-    <div class="Box p-4 h-100">
-      <h3 class="mb-2"><a href="{{ site.baseurl }}{% link docs/usage.md %}">Usage Guide</a></h3>
-      <p>Learn how to use the package and view captured emails.</p>
-    </div>
+<div class="features-grid">
+  <div class="feature-card">
+    <h3><a href="{% link docs/getting-started.md %}">Getting Started</a></h3>
+    <p>Install and configure the Local Mail package in your Laravel application.</p>
+  </div>
+  <div class="feature-card">
+    <h3><a href="{% link docs/usage.md %}">Usage Guide</a></h3>
+    <p>Learn how to use the package and view captured emails.</p>
   </div>
 </div>
 

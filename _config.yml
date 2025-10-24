@@ -3,9 +3,9 @@ email: rajen.trivedi@example.com
 description: >-
   Local Mail is a Laravel package that provides a local email testing solution for development environments.
 baseurl: "/local-mail" # the subpath of your site, e.g. /blog
-url: "https://rajen-trivedi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://rajentrivedi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rajentrivedi
-github_username: rajen-trivedi
+github_username: rajentrivedi
 
 # Build settings
 markdown: kramdown
@@ -16,10 +16,10 @@ plugins:
 # Custom variables
 github:
   is_project_page: true
-  repository_url: https://github.com/rajen-trivedi/local-mail
+  repository_url: https://github.com/rajentrivedi/local-mail
   owner:
     name: Rajen Trivedi
-    url: https://github.com/rajen-trivedi
+    url: https://github.com/rajentrivedi
     avatar: https://avatars.githubusercontent.com/u/12345678?v=4
 
 # Exclude from processing.
